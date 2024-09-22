@@ -204,7 +204,7 @@ function showSuddenDeath() {
   context.font = '50px Courier New';
   context.fillStyle = 'red';
   context.textAlign = 'center';            // Align text to the center
-  context.fillText('Sudden Death !!!', width / 2, height / 2);  // Draw the text in the middle
+  context.fillText('Sudden Death !!', width / 2, height / 2);  // Draw the text in the middle
 }
 
 // Check If One Player Has Winning Score, If They Do, End Game
