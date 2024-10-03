@@ -212,7 +212,7 @@ function gameOver() {
   if (playerScore === winningScore || computerScore === winningScore) {
     isGameOver = true;
     // Set Winner
-    const winner = playerScore === winningScore ? 'Fluffy' : 'Mayowa';
+    const winner = playerScore === winningScore ? 'Player' : 'Mayowa';
     showGameOverEl(winner);
   }
 }
